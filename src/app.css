@@ -1,0 +1,98 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  html {
+    height: 100%;
+    scroll-behavior: smooth;
+  }
+  ul,
+  ol {
+    list-style: none;
+  }
+  a {
+    text-decoration: none;
+    color: inherit;
+  }
+  body {
+    height: 100%;
+    opacity: 0.75;
+    background: linear-gradient(180deg, #1a043a 0%, #151278 70.31%, #2b1677 100%);
+  }
+  main {
+    flex-grow: 1;
+  }
+  .container {
+    width: 100%;
+    max-width: 1300px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 30px;
+    padding-right: 30px;
+  }
+  .navbar {
+    display: flex;
+    gap: 5rem;
+  }
+  .navbar img {
+    height: 60px;
+    margin-left: 3rem;
+  }
+  .nav_tit {
+    color: white;
+    text-align: center;
+    font-size: 50px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 120%;
+  }
+  .raqam {
+    font-size: 40px;
+    color: #fe71fe;
+    margin-left: 40rem;
+    margin-top: 1rem;
+  }
+  .katekchalar {
+    display: flex;
+    width: 100px;
+    height: 120px;
+    padding: 12px 64px;
+    border-radius: 40px;
+    background: #2463ff;
+    box-shadow: 0px 1px 0px 6px #3c74ff inset, 0px -2px 0px 3px #140e66 inset;
+  }
+  .katek {
+    display: flex;
+    gap: 3rem;
+    margin-top: 4rem;
+    margin-left: 5rem;
+  }
+  .qator1 {
+    display: flex;
+    gap: 2rem;
+    margin-top: 2rem;
+  }
+  .qator1 button {
+    width: 109px;
+    height: 70px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 32px;
+    align-self: stretch;
+    border-radius: 24px;
+    background: var(--White, #fff);
+    color: var(--Dark-Navy, #261676);
+    text-align: center;
+    cursor: pointer;
+  
+    font-family: "Mouse Memoirs";
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 120%; /* 57.6px */
+    letter-spacing: 2.4px;
+    text-transform: uppercase;
+  }
+  
